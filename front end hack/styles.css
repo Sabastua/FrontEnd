@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  #qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #qr-code {
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  #qr-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #share-button {
+    background-color: #3f51b5; /* Optional color for share button */
+    color: white;
+  }
+  
+  #download-button {
+    background-color: #4CAF50; /* Optional color for download button */
+    color: white;
+  }
+  
+  #download-button:disabled {
+    opacity: 0.5;
+    cursor: default; /* Remove pointer style for disabled button */
+  }
+  
